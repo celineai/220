@@ -187,7 +187,7 @@ class TestClass:
             result.expected = test['expected']
             circle = Circle(Point(test['x'], test['y']), test['radius'])
             result.data = (circle, win)
-            result.actual = bumper.hit_horizontal(circle, win)
+            result.actual = bumper.hit_horizontal(circle)
             result.passed = result.expected == result.actual
             horizontal_results.add(result)
 
