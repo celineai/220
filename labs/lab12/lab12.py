@@ -77,12 +77,12 @@ def hi_lo_game():
 
 
 def main():
-    #find_and_remove(1,2)
-    #read_data(dataSorted.txt)
-    #is_in_linear()
-    #good_input()
-    #num_digits()
-    #hi_lo_game()
+    find_and_remove(1,2)
+    read_data(dataSorted.txt)
+    is_in_linear()
+    good_input()
+    num_digits()
+    hi_lo_game()
     pass
 
 
